@@ -1,3 +1,5 @@
+"use client";
+
 import { OrderStatus, Prisma } from "@prisma/client";
 import { ChevronLeftIcon, ScrollTextIcon } from "lucide-react";
 import Image from "next/image";
@@ -35,6 +37,7 @@ const getStatusLabel = (status: OrderStatus) => {
   if (status == "PENDING") {
     return "Pendente";
   }
+  return "";
 };
 
 const OrderList = ({ orders }: OrderListProps) => {
