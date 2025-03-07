@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center gap-8 py-8">
+    <div className="flex flex-col items-center gap-8 p-8">
       <h1 className="text-3xl font-bold">Bem-vindo ao FSW Donalds</h1>{" "}
       {/*Welcome to FSW Donalds */}
       <p className="text-center text-lg">
